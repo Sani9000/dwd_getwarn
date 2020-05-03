@@ -1,17 +1,16 @@
 <?php
-$pfad = "/var/www/html/dwd-warn";
+##Pfad zu den Scriptdateien 
+$path = "/home/pi/dwdwarn";
 
 $gemkey = array(
-## Übersicht zu den vom DWD verwendeten Gemeindeschlüsseln: http://www.dwd.de/DE/leistungen/gds/help/warnungen/cap_warncellids_csv.csv
-"116067000"=>"GTH",
-"116063000"=>"WAK",
-"116064000"=>"UH ",
-"116066000"=>"SM ",
-"116051000"=>"EF ",
-"116056000"=>"EA ",
-"916000000"=>"THL"
+## Übersicht zu den vom DWD verwendeten Landkreisschlüsseln: http://www.dwd.de/DE/leistungen/gds/help/warnungen/cap_warncellids_csv.csv
 
-// "108211000" =>"BAD"
+"103151000"=>"GF",
+"115081000"=>"SAW",
+"103360000"=>"UE",
+"103101000"=>"BS",
+"103351000"=>"CE",
+"103103000"=>"WOB"
+
 );
-
 ?>
